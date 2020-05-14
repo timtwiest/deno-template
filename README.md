@@ -17,6 +17,7 @@ This template uses `make` to run the Deno commands.
 - `make test`: runs the tests
 - `make debug`: runs the debugger starting in the `src/server.ts`
 - `make build`: Builds your project into a single file in `dist/server`
+- `make clean`: Deletes the `dist` directory
 
 ## Status
 
