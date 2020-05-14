@@ -4,7 +4,6 @@
 # Logs
 logs
 *.log
-npm-debug.log*
 
 # Runtime data
 pids
@@ -15,17 +14,5 @@ pids
 /build
 /dist
 
-# Dependency directories
-/node_modules
-/jspm_packages
-
-# Optional npm cache directory
-.npm
-
-# Optional REPL history
-.node_repl_history
-
 # Lock files
-package-lock.json
-yarn.lock
 .DS_Store
