@@ -1,4 +1,4 @@
-# Env files
+# Env file
 .env
 
 # Logs
@@ -11,8 +11,8 @@ pids
 *.seed
 
 # Build
-/build
-/dist
+build/
+dist/
 
-# Lock files
+# System files.
 .DS_Store
