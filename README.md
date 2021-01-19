@@ -1,6 +1,11 @@
 # 🦕 Deno-Template
 > Simple starter template for new Deno projects
 
+[![License - MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![Made with Deno](https://img.shields.io/badge/Deno-1-blue?logo=deno&logoColor=white)](https://deno.land)
+
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/Vanture/Deno-Template/generate)
+
 ## Requirements
 
 To run this project, make sure the following are installed and available in your shell:
@@ -10,7 +15,7 @@ To run this project, make sure the following are installed and available in your
 
 ## Installation
 
-Download Deno from the homepage.
+Download Deno from their homepage instructions.
 
 Clone this repo.
 
@@ -85,3 +90,7 @@ make clean
     </tr>
   <tbody>
 </table>
+
+## License
+
+Released under [MIT](/LICENSE) by [@Vanture](https://github.com/Vanture).
