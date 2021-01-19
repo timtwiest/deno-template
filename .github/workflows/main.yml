@@ -1,0 +1,26 @@
+name: Deno CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    name: Test app
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Download Deno
+        uses: denolib/setup-deno@master
+        with:
+          deno-version: v1.1.2
+
+      - name: Check format
+        run: deno fmt --check
+
+      - name: Run tests
+        run: deno test --allow-read --allow-write
