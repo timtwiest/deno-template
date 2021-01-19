@@ -1,27 +1,70 @@
 # 🦕 Deno-Template
-
-This is a very simple Deno Template.
+> Simple starter template for new Deno projects
 
 ## Requirements
 
-To run the Deno Template, the following will need to be installed and available from your shell:
+To run this project, make sure the following are installed and available in your shell:
 
 - [Deno](https://deno.land/)
 - [Git](https://git-scm.com/)
 
-## Getting started
+## Installation
 
-This template uses `make` to run the Deno commands.
+Download Deno from the homepage.
 
-- `make run`: runs the `src/server.ts`
-- `make test`: runs the tests
-- `make debug`: runs the debugger starting in the `src/server.ts`
-- `make build`: Builds your project into a single file in `dist/server`
-- `make clean`: Deletes the `dist` directory
+Clone this repo.
+
+Create a local dotenv file.
+
+```sh
+cp .env.example .env
+```
+
+## Usage
+
+For convenience for running Deno in this project, some `make` commands have been defined in [Makefile](/Makefile).
+
+### Start dev server
+
+This will download dependencies and run [src/server.ts](/src/server.ts).
+
+```sh
+make run
+```
+
+### Run tests
+
+```sh
+make test
+```
+
+### Start the debugger
+
+Run the debugger, starting in [src/server.ts](/src/server.ts).
+
+```sh
+make debug
+```
+
+### Build
+
+Build your project into a single JS file as `dist/server`.
+
+```sh
+make build
+```
+
+### Delete
+
+Remove the `dist` directory.
+
+```sh
+make clean
+```
 
 ## Status
 
-- [x] Config for enviroment variables.
+- [x] Config for environment variables.
 - [x] Logger to log the pretty messages.
 - [ ] Extend the project to include more resources.
 - [ ] Think about a better structure.
