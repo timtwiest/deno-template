@@ -1,5 +1,5 @@
+import { environment, name } from "./config/index.ts";
 import { log } from "./logger/log.ts";
-import { name, envoriment } from "./config/index.ts";
 
 /**
  * The Server.
@@ -10,7 +10,7 @@ import { name, envoriment } from "./config/index.ts";
  * @author Tim Twiest
  */
 const initServer = async () => {
-  log.warning(`🧱 Environment: ${envoriment.toUpperCase()}`);
+  log.warning(`🧱 Environment: ${environment.toUpperCase()}`);
   log.info(`🦕 Starting ${name}...`);
 };
 
