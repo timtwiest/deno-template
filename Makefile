@@ -15,7 +15,7 @@ debug:
 
 run:
 	@echo "Starting application..."
-	deno run --allow-env --allow-read --config tsconfig.json src/server.ts
+	deno run --allow-env --allow-read src/server.ts
 
 test:
 	@echo "Running tests..."
