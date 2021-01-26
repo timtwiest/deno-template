@@ -19,8 +19,8 @@ jobs:
         with:
           deno-version: v1.x
 
-      - name: Check format
-        run: deno fmt --check
+      - name: Check formatting
+        run: deno fmt --check --unstable ignore=build,dist,README.md
 
       - name: Run tests
         run: deno test --allow-read --allow-write
